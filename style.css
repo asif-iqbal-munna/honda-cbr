@@ -13,3 +13,7 @@ body {
 .btn-bg-color {
   background-color: #e76f51;
 }
+
+.filtered {
+  filter: grayscale(100%);
+}
