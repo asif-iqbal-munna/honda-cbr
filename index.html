@@ -4,21 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     <title>Honda Cbr</title>
 </head>
 <body>
-    <header class="bg-dark-blue">
+    <header class="bg-dark-blue text-white">
         <div class="container">
-            <div class="row d-flex flex-column flex-md-row">
-                <div class="col-12 col-md-6">
-                    <p>The Honda CBR 150R is a very popular entry-level supersport bike.</p>
-                    <h1></h1>
-                    <p></p>
-                    <button></button>
+            <div class="row d-flex flex-column flex-sm-row align-items-center py-5">
+                <div class="col-12 col-md-5">
+                    <p class="mb-2">The Honda CBR 300R is a very popular entry-level supersport bike.</p>
+                    <h1 class="text-uppercase fw-bold mb-3 fs-1">honda cbr 300r</h1>
+                    <p class="text-light">Open-class four-cylinder liter bikes have long been the holy grail for the best sportbike riders. Powerful, precise
+                    machines that stand at the very top of motorcycling’s hierarchy. On the track, they command your full attention. </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-bg-color py-2 px-5 text-white text-capitalize" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        purchase
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content text-dark">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-uppercase" id="exampleModalLabel">Brand New Honda CBR 300R</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h3>Honda CBR 300R</h3>
+                                    <p>One glance at the Honda CBR300R and it’s easy to understand that the styling of the bike has been heavily inspired from
+                                    the CBR500R, especially the twin-split headlights and the tank extensions. Similar to the CBR250R, the slightly rear-set
+                                    footpegs and two-piece handlebar should result in a subtly sporty yet comfortable riding posture, which is essential for
+                                    a sports tourer.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-light text-dark" data-bs-dismiss="modal">Buy Later</button>
+                                    <button type="button" class="btn btn-bg-color text-white text-capitalize">Purchase Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-sm-7 ps-lg-5 mt-5 mt-md-0">
                     <img src="images/header-bike.png" class="img-fluid" alt="">
                 </div>
             </div>
