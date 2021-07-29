@@ -23,6 +23,7 @@ body {
 .filtered {
   filter: grayscale(100%);
 }
+
 @media screen and (max-width: 667px) {
   body {
     overflow-x: hidden !important;
