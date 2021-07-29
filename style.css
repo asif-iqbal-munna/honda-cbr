@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-dark-blue {
+  background-color: #264653;
+}
+
+.text-color-orng {
+  color: #e76f51;
+}
+
+.btn-bg-color {
+  background-color: #e76f51;
+}
+
+.filtered {
+  filter: grayscale(100%);
+}
+
+@media screen and (max-width: 667px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+}
