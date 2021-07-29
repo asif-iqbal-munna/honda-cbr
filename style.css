@@ -11,6 +11,14 @@ body {
   background-color: #264653;
 }
 
+.fill-color {
+  fill: #e76f51;
+}
+
+.bg-svg {
+  background-color: #e76f5179;
+}
+
 .text-color-orng {
   color: #e76f51;
 }
